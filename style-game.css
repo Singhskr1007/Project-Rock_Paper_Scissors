@@ -1,0 +1,63 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+p {
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin: 20px;
+}
+
+.title {
+    font-size: 4rem;
+    font-weight: bold;
+    color:#66FCF1;
+    font-family: "Grechen Fuemen", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.moves {
+    border: none;
+    height: 50px;
+    padding: 10px;
+}
+
+.move-btn {
+    border-radius: 50%;
+    background-color: black;
+    border: 3px solid white;
+    margin: 10px;
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.js-result {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.js-score {
+    margin-top: 60px;
+}
+
+.resetbtn,.auto-play {
+    border: none;
+    font-size: 1em;
+    padding: 15px;
+    margin: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 10%;
+    background-color: white;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    
+}

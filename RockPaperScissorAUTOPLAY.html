@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-game.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap" rel="stylesheet">
+    <title>Rock Paper Scissors</title>
+</head>
+
+<body>
+    <h2 class="title">Rock Paper Scissors</h2>
+    <button class="move-btn js-rock-button" >
+        <img src="rock-emoji.png" alt="rock-emoji" class="moves"></button>
+
+    <button  class="move-btn js-paper-button">
+        <img src="paper-emoji.png" alt="paper-emoji" class="moves"></button>
+
+    <button  class="move-btn js-scissor-button">
+        <img src="scissors-emoji.png" alt="scissors-emoji" class="moves"></button>
+
+
+    <p class="js-result"></p> 
+    <p class="js-moves"></p>
+    <p class="js-score"></p>
+
+    <button onclick="
+            score.Wins=0;
+            score.Losses=0;
+            score.Ties=0;
+            localStorage.removeItem('score');
+            updateScore();
+    " class="resetbtn">
+        Reset Score
+    </button>
+
+    <button class="auto-play" onclick="
+     autoplay();       ">
+    Auto Play
+</button>
+
+    <script src="RockPaperScissorAUTOPLAY.js"></script>
+</body>
+</html>
